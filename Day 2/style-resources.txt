@@ -1,0 +1,34 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #999;
+}
+
+.card {
+  width: 350px;
+  height: 220px;
+  margin: 50px auto;
+  background-color: #3583EE;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.card header {
+  border-radius: 15px 15px 0 0;
+}
+
+.card footer {
+  border-radius: 0 0 15px 15px;
+}
+
+.card article img {
+  max-height: 100%;
+  float: right;
+  border-radius: 5%;
+}
