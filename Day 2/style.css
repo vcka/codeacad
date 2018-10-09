@@ -8,6 +8,7 @@ html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
   font-size: 10px;
   background-color: #999;
+
 }
 
 .card {
@@ -20,15 +21,39 @@ html {
 }
 
 .card header {
+  /* box-sizing: border-box; */
   border-radius: 15px 15px 0 0;
+  margin: 15px 0 15px 15px;
+  /* font-size: 14px; */
+
 }
 
 .card footer {
   border-radius: 0 0 15px 15px;
+  margin: 15px 0 0 15px;
+  /* font-size: 14px; */
 }
 
 .card article img {
   max-height: 100%;
   float: right;
-  border-radius: 5%;
+  border-radius: 5% 0 0 5%;
+}
+.card article {
+  /* margin: 0 0px 0 0px; */
+  box-sizing: border-box;
+  width: 350px;
+  height: 125px;
+
+}
+
+.card article p{
+  padding: 15px;
+  color: white;
+  /* margin: 10px 10px 0 10px; */
+  box-sizing: border-box;
+  width: 350px;
+  height: 125px;
+  background-color: #1A4876;
+
 }
