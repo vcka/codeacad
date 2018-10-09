@@ -3,5 +3,8 @@ div {
   font-size: 50px;
 }
 .pirmas{
-  background-color: blue;
+  background-color: orange;
+}
+#idpirmas{
+  background-color: aqua;
 }
