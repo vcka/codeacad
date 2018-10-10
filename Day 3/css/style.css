@@ -82,6 +82,10 @@ dl {
   /* list-style-position: outside; */
 }
 
+.news li {
+  margin-bottom: 5px;
+}
+
 .right h1 {
   padding: 0px 20px 0px 20px;
 }
