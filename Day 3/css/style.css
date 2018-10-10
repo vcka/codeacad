@@ -75,13 +75,13 @@ dl {
   /* max-height: 10%; */
   display: flex;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
 .left {
   padding: 0 0 20px 0;
-  width: 65%;
+  width: 70%;
   /* width: 75%; */
 }
 
