@@ -1,2 +1,2 @@
-# codeacad
+# codeacademy
 Kursai
