@@ -15,6 +15,8 @@ $r = rand(0, 255);
 $g = rand(0, 255);
 $b = rand(0, 255);
 $f = rand(1, 100);
+$top = rand(5, 95);
+$side = rand(5, 95);
 
 $html = '<!DOCTYPE html>
 <!--Pagrindine nesamone
@@ -28,6 +30,7 @@ $html = '<!DOCTYPE html>
 <body style="background:rgb('.$r.','.$g.','.$b.')">
 <h1 style="font-size:'.$f.'px">'.$h1.'</h1>
 <p style="color: rgb('.$b.','.$g.','.$r.')">'.$paragraph.'</p>
+<div style="height: 50px; width: 50px; background-color: #555; position: absolute; top: '.$top.'%; right: '.$side.'%;padding: 10px;">
 </body>';
 die ($html);
 ?>
