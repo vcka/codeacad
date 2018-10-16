@@ -7,12 +7,13 @@ $m = date('m');
 $d = date('d');
 $title = 'As, '.date(D).' ir PHP';
 $h1 = 'Vytautas - HTML ir PHP jau nuo '. date('Y').' metu';
+$tommorow = date('Y-m-d', strtotime("next day"));
 
 $html = '<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
-<title>'.$title.'</title>
+<title>PHP lydes ir ryt '.$tommorow.'</title>
 </head>
 <body>
 <h1>'.$h1.'</h1>
