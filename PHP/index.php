@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+
+date_default_timezone_set('Europe/Vilnius');
+$data =  date('Y-m-d  H:i:s');
+
+$html = '<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
@@ -8,5 +13,7 @@
 
 <body>
     <h1>Vytautas - HTML asas!</h1>
-    <p>Moku sukurti statini turini.</p>
-</body>
+    <p>Moku sukurti statini turini. Atidaryta '.$data.'</p>
+</body>';
+echo $html;
+?>
