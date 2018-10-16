@@ -21,7 +21,7 @@ echo new class() extends Init
     ],
     $nav1 = [
         ['Home', '?m=home'],
-        ['About', '?m=about'],
+        ['Apie', '?m=about'],
         ['Contact', '?m=contact'],
     ];
 };
@@ -181,7 +181,7 @@ design and some of the new features of PHP7.
     private function contact() : string
     {
         return '
-      <h2>Email Contact Form</h2>
+      <h2>Emailas Contact Form</h2>
       <form id="contact-send" method="post" onsubmit="return mailform(this);">
         <p><input id="subject" required="" type="text" placeholder="Message Subject"></p>
         <p><textarea id="message" rows="9" required=""placeholder="Message Content"></textarea></p>
