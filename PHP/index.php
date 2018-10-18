@@ -1,6 +1,6 @@
 <?php
 
-//header("Refresh:1");
+header("Refresh:1");
 $sec = date('s');
 $id = '';
 if (is_int($sec / 2)) {
@@ -15,27 +15,31 @@ $html = '<!DOCTYPE html>
 
 <head>
   <meta charset="utf-8">
-  <title>HW-CA</title>
+  <title>EXTRA</title>
   <style>
     #circle {
-      width: 50px;
-      height: 50px;
-      -webkit-border-radius: 25px;
-      -moz-border-radius: 25px;
-      border-radius: 25px;
-      background: red;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: red;
+    text-align: center;
     } 
     #square {
-  height: 50px;
-  width: 50px;
-  background-color: #555;
-}
+    margin: 50px auto;
+    height: 500px;
+    width: 500px;
+    background-color: #555;
+    text-align: center;
+    }
 </style>
 
 </head>
 
 <body>
-<div id="'.$style.'">'.$sec.'</div>
+<div id="'.$id.'">'.$sec.'</div>
 </body>';
 die($html);
 ?>
