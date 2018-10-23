@@ -26,35 +26,40 @@ $catalog = [
         <style>
             .produktas {
                 text-align: center;
-                width: 1200px;
-                height: 900px;
+                width: 200px;
+                height: 200px;
                 margin: 0 auto;
                 background-color: #f4f0ed;
                 display: block;
+                border: 1px solid black;
             }
             .pavadinimas{
                 display: block;
+                font-size: 40px;
             }
             .kaina{
                 display: block;
+                font-size: 18px;
+                color: red;
             }
             .aprasymas{
                 display: block;
+                font-size: 26px;
             }
             .nuolaida{
                 display: block;
+                font-size: 18px;
+                color: #f31919;
             }
         </style>
     </head>
     <body>
 <?php foreach ($catalog as $value): ?>
             <div class="produktas">
-
                 <span class="pavadinimas"><?php print $value[pavadinimas]; ?></span>
                 <span class="kaina"><?php print $value[kaina]; ?></span>
                 <span class="aprasymas"><?php print $value[aprasymas]; ?>.</span>
-                <span class="nuolaida"><?php print $value[nuolaida]; ?></span>
-
+                <span class="nuolaida"><?php print "$value[nuolaida] %"; ?></span>
             </div>
 <?php endforeach; ?>
     </body>
